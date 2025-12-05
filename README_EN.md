@@ -825,6 +825,9 @@ Tools are provided "as is" without any warranties.
 
 For questions and suggestions, create an Issue in the repository.
 
+Discrord: @sitxovski
+
+
 ---
 
 **Last Update:** December 2025  
