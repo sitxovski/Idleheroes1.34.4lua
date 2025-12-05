@@ -1,0 +1,41 @@
+# Маппинг опкодов из libcocos2dlua.so.c
+# Формат: case_number -> operation (строка в .so.c)
+
+case 0 -> SUB (вычитание) - строка 1758966: dVar35 - dVar36
+case 1 -> LOADK (загрузка константы) - строка 1758969
+case 2 -> TEST (условие) - строка 1758975
+case 3 -> SETTABLE - строка 1758985
+case 4 -> LOADK (Bx) - строка 1758998
+case 5 -> LOADNIL - строка 1759001
+case 6 -> CALL - строка 1759009
+case 7 -> JMP - строка 1759011
+case 8 -> CALL (SELF) - строка 1759014
+case 9 -> LOADBOOL - строка 1759040
+case 10 -> LEN - строка 1759054
+case 0xb -> NEWTABLE - строка 1759083
+case 0xc -> LE (<=) - строка 1759086
+case 0xd -> CLOSURE - строка 1759159
+case 0xe -> SETTABLE - строка 1759195
+case 0xf -> TESTSET - строка 1759212
+case 0x10 -> MOD (%) - строка 1759230
+case 0x11 -> GETUPVAL - строка 1759256
+case 0x12 -> FORPREP - строка 1759260
+case 0x13 -> MUL (*) - строка 1759342, строка 1759366: dVar35 * dVar36
+case 0x14 -> CONCAT - строка 1759368
+case 0x15 -> GETTABLE - строка 1759382
+case 0x16 -> SETLIST - строка 1759402
+case 0x17 -> LOADBOOL - строка 1759417
+case 0x18 -> SETLIST (alt) - строка 1759424
+case 0x19 -> UNM (унарный минус) - строка 1759467
+case 0x1a -> RETURN - строка 1759478
+case 0x1b -> DIV (/) - строка 1759495, строка 1759519: dVar35 / dVar36
+case 0x1c -> MOVE - строка 1759521
+case 0x1d -> SETGLOBAL - строка 1759529
+case 0x1e -> ADD (+) - строка 1759540, строка 1759564: dVar35 + dVar36
+case 0x1f -> EQ (==) - строка 1759566
+case 0x20 -> FORLOOP - строка 1759587
+case 0x21 -> LT (<) - строка 1759603
+case 0x22 -> POW (^) - строка 1759626, строка 1759645: pow(dVar35, dVar36)
+case 0x23 -> SETUPVAL - строка 1759657
+case 0x24 -> CLOSURE - строка 1759669
+case 0x25 -> VARARG - строка 1759689
